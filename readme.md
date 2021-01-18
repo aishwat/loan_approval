@@ -25,4 +25,3 @@ Directory Structure
 * load.py - hits server with parallel requests given at `future = asyncio.ensure_future(run(2000))`. It has a `run_seq` function to get average response time if hit sequentially. Bottom average_response times are mentioned in comment
 * load_test.js - NodeJs load testing. Surprisingly! higher the concurrency, it gave lower average response time
  
-* _logging is commented out_
